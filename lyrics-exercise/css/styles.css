@@ -1,0 +1,35 @@
+h1 {
+    text-align: center;
+    line-height: 45pt;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 36pt;
+    color: white;
+}
+h2 {
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20pt;
+    line-height: 0pt;
+    color: white;
+}
+p {
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 14pt;
+    color: white;
+}
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+body {
+    background-image: url("https://papers.co/wallpaper/papers.co-vo44-rose-blue-pattern-41-iphone-wallpaper.jpg");
+}
+.title {
+    font-style: italic;
+    line-height: 20pt;
+}
+.blue {
+    font-weight: bold;
+}
