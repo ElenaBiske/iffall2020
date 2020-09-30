@@ -1,0 +1,44 @@
+h1 {
+    color: green;
+    font-size: 50px;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+}
+h2 {
+    color: grey;
+    font-size: 35px;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    line-height: 0px;
+}
+p {
+    font-family: 'Courier New', Courier, monospace
+}
+.peter {
+    font-weight: bold;
+    color: maroon;
+}
+.dana {
+    font-weight: bold;
+    color: lightseagreen;
+}
+.ray {
+    font-weight: bold;
+    color: purple
+}
+.egon {
+    font-weight: bold;
+    color: royalblue;
+}
+.winston {
+    font-weight: bold;
+    color: goldenrod
+}
+.mayor {
+    font-weight: bold;
+    color: salmon;
+}
+.action {
+    font-style: italic;
+}
+body {background-color: bisque;}
