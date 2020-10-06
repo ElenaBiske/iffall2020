@@ -1,0 +1,77 @@
+html {
+    color: rgb(53, 50, 50);
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 14pt;
+  }
+body {
+    margin: 6%;
+}
+h1 {
+    font-size: 64pt;
+    color: mediumpurple;
+    line-height: .7;
+}
+section {
+    margin: 8%
+}
+h2 {
+    line-height: .7;
+    font-size: 18px;
+}
+h3 {
+    font-weight: 700;
+    line-height: 1;
+    text-decoration: underline;
+}
+h4 {
+    color:mediumpurple;
+    font-size: 10pt;
+    font-style: italic;
+    line-height: .5;
+}
+p {
+    text-indent: 2.5em;
+    font-weight: 400;
+}
+.fwlighter {
+    font-weight: 300;
+}
+.fwbold {
+    font-weight: 500;
+}
+.fwbolder {
+    font-weight: 700;
+}
+.fsitalic {
+    font-style: italic;
+}
+.lsone {
+    letter-spacing: .5em;
+}
+.lstwo {
+    letter-spacing: .1em;
+}
+.lsthree {
+    letter-spacing: -.05em;
+}
+.lsfour {
+    letter-spacing: -.2em;
+}
+.ttupper {
+    text-transform: uppercase;
+}
+.ttlower {
+    text-transform: lowercase;
+}
+.ttcapital {
+    text-transform: capitalize;
+}
+.tdunder {
+    text-decoration: underline;
+}
+.tdthrough {
+    text-decoration: line-through;
+}
+.tdover {
+    text-decoration: overline;
+}
