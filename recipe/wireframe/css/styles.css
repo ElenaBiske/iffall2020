@@ -1,0 +1,30 @@
+body {
+    max-width: 960px;
+    min-width: 320px;
+    margin-left: auto;
+    margin-right: auto;
+}
+img {
+    max-width: 100%;
+    height: auto;
+  }
+@media (min-width: 640px) {
+    .content {
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+@media (min-width: 640px) {
+    #ingredients {
+        max-width: 50%;
+    }
+}
+@media (min-width: 640px) {
+    #instructions {
+        max-width: 50%;
+    }
+}
+.list {
+    margin-left: auto;
+    margin-right: auto;
+}
