@@ -1,0 +1,125 @@
+body {
+    max-width: 960px;
+    min-width: 320px;
+    margin: 4em auto;
+    padding-left: 3em;
+    padding-right: 3em;
+}
+img {
+    max-width: 50%;
+    height: auto;
+    float: right;
+    margin-left: 2em;
+    margin-bottom: 2em;
+  }
+@media (min-width: 640px) {
+    .content {
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+@media (min-width: 640px) {
+    #ingredients {
+        max-width: 50%;
+    }
+}
+@media (min-width: 640px) {
+    #instructions {
+        max-width: 40%;
+    }
+}
+.list {
+    margin-left: auto;
+    margin-right: auto;
+}
+html {
+    background-color: sandybrown;
+}
+h1 {
+    font-family: los-feliz, serif;
+    font-weight: 700;  
+    font-style: normal;
+    font-size: 60pt;
+    text-align: center;
+    color: rgb(255, 244, 225);
+    margin-bottom: 0em;
+    line-height: 60pt;
+}
+h2 {
+    font-family: los-feliz, serif;
+    font-weight: 400;
+    font-style: italic;
+    text-align: center;
+    color: rgb(255, 244, 225);
+    font-size: 16pt;
+}
+header {
+    border: dotted 5px;
+    border-color: rgb(255, 244, 225);
+    padding-bottom: 2.5em;
+    padding-left: 1.5em;
+    padding-right: 1.5em;
+}
+@media (max-width: 450px) {
+    h1 { 
+        font-size: 30pt;
+        line-height: 35pt;
+    }
+    h2 {
+        font-size: 12pt;
+    }
+    img {
+        margin-left: 1em;
+        margin-bottom: 1em;
+        float: none;
+        max-width: 100%;
+        margin: 0;
+    }
+}
+.intro {
+    background-color: sienna;
+    margin-top: 40pt;
+}
+.content {
+    clear: both;
+    border: dotted 5px;
+    border-color: rgb(255, 244, 225);
+    padding-bottom: 1.5em;
+    padding-left: 1.5em;
+    padding-right: 1.5em;
+    padding-top: 1.5em;
+}
+.intro p {
+    padding-left: 2.5em;
+    padding-right: 2em;
+    padding-top: 9em;
+    padding-bottom: 8.65em;
+    margin-top: 1em;
+    color: rgb(255, 244, 225);
+    font-size: 13pt;
+    line-height: 22pt;
+}
+p {
+    font-family: odile, serif;
+    font-weight: 500;
+    font-style: normal;
+}
+@media (max-width: 450px) {
+    .intro p {
+        padding: 1em;
+    }
+}
+h3 {
+    text-align: center;
+    font-family: los-feliz, serif;
+    font-weight: 700;  
+    font-style: normal;
+    font-size: 16pt;
+    text-decoration: underline;
+}
+li p {
+    font-size: 11pt;
+}
+footer p {
+    font-size: 8pt;
+}
