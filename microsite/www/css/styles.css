@@ -1,0 +1,336 @@
+body {
+    margin: 0em;
+}
+#hogwartsbody {
+    background-image: url('../images/homepage.jpg');
+    background-size: 120%;
+    background-position: top center;
+    height: auto;
+    background-repeat: no-repeat;
+    background-color: #07132b;
+}
+h1 {
+    font-family: linotype-didot, serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 8vw;
+    text-align: center;
+    color: white;
+    padding-top: 2.75em;
+    margin-block-end: 0;
+}
+h2 {
+    font-family: salden, serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 5vw;
+    text-align: center;
+    color: white;
+    margin-block-start: 0;
+    margin-top: -.1em;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    margin: auto;
+    width: 100%;
+  }
+li {
+    display: inline-block;
+    text-align: center;
+    font-family: leander-script-pro, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    color: white;
+    text-align: center;
+    font-size: 3.5vw;
+    padding: .6em;
+  }
+#homenav li {
+    padding: .8em;
+    margin-top: -2.55em;
+}
+a {
+    color: white;
+    text-decoration: none;
+}
+.youarehere {
+    font-family: linotype-didot, serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.navbar {
+    height: 7em;
+    line-height: 4em;
+}
+.housenavbar {
+    position: fixed;
+    top: 0em;
+    z-index: 1000;
+    width: 100%;
+}
+.housenavbar li {
+    font-weight: 3.5vw;
+}
+#gnavbar {
+    background-color: #e8c71d;
+    box-shadow: 0 0 1em 1em #e8c71d;
+}
+#gnavbar li {
+    color: #66180b;
+}
+#gnavbar a {
+    color: #66180b;
+}
+#rnavbar {
+    background-color: #624222;
+    box-shadow: 0 0 1em 1em #624222;
+}
+#rnavbar li {
+    color: white;
+}
+#rnavbar a {
+    color: white;
+}
+#hnavbar {
+    background-color: #424b50;
+    box-shadow: 0 0 1em 1em #424b50;
+}
+#hnavbar li {
+    color: white;
+}
+#hnavbar a {
+    color: white;
+}
+#snavbar {
+    background-color: #d8d8d8;
+    box-shadow: 0 0 1em 1em #d8d8d8;
+}
+#snavbar li {
+    color: #1e4203;
+}
+#snavbar a {
+    color: #1e4203;
+}
+#navbarhome {
+    background-color: #bf8624;
+    box-shadow: 0 0 1em 1em  #bf8624;
+    margin-top: 8em;
+    position: sticky;
+    top: 0px;
+}
+p{
+    font-family: century-old-style-std, serif;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+    font-size: 1.3vw;
+}
+#firstpg {
+    
+    color: white;
+    text-align: center;
+    font-size: 2vw;
+    margin-top: 2em;
+}
+#homepage1 {
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+#logo {
+    text-align: center;
+    width: 50%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 4em;
+}
+h3 {
+    font-family: salden, serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 5vw;
+    text-align: left;
+    color: white;
+    margin-bottom: 0;
+    margin-top: 2.5em;
+}
+#homepage2 {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+#castle {
+    float: right;
+    width: 50%;
+    height: auto;
+    margin-bottom: 1em;
+}
+#class {
+    clear: right;
+    float: right;
+    width: 50%;
+    height: auto;
+}
+#homepage2 p {
+    width: 48%;
+    font-size: 1.3vw;
+}
+#homepage3 {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+#express {
+    float: right;
+    width: 50%;
+    height: auto;
+    margin-bottom: 1em;
+}
+#homepage3 p {
+    width: 48%;
+    font-size: 1.3vw;
+}
+#sorting {clear: right;
+    float: right;
+    width: 50%;
+    height: auto;
+}
+.lastpg {
+    margin-bottom: 5em;
+}
+#gbody {
+    background-image: url('../images/gryffindor.jpg');
+    background-size: 115%;
+    background-position: top center;
+    height: auto;
+    background-attachment: fixed;
+}
+.gryffindor {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+h4 {
+    font-family: salden, serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 7vw;
+    text-align: left;
+    color: white;
+    margin-bottom: 0;
+    margin-top: 2.5em;
+}
+#ghome p {
+   padding-right: 21em;
+}
+#gchars h3 {
+    margin-top: 0.5em;
+}
+#gchars {
+    width: 80%;
+    text-align: left;
+}
+.charlist {
+    padding: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 80%;
+    text-align: left;
+    margin-left: 0;
+    margin-bottom: 5em;
+}
+.charlist li {
+    display: block;
+    padding: 0;
+    font-family: century-old-style-std, serif;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+    font-size: 1.75vw;
+    padding-right: 2em;
+    padding-bottom: 1em;
+}
+.charlist img {
+    width: 100%;
+}
+#rbody {
+    background-image: url('../images/ravenclaw.jpg');
+    background-size: 125%;
+    background-position: top center;
+    height: auto;
+    background-attachment: fixed;
+}
+.ravenclaw {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+#rhome p {
+    padding-right: 29em;
+ }
+ #rchars h3 {
+    margin-top: 0.5em;
+ }
+ #rchars {
+    width: 80%;
+    text-align: left;
+ }
+ #hbody {
+    background-image: url('../images/hufflepuff.jpg');
+    background-size: 125%;
+    background-position: top center;
+    height: auto;
+    background-attachment: fixed;
+}
+.hufflepuff {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+#hhome p {
+    margin-right: 29em;
+    background-color: rgb(143, 105, 8, 0.5);
+    box-shadow: 0 0 1em 1em rgb(143, 105, 8, 0.5);
+ }
+#hchars h3 {
+    margin-top: 0.5em;
+ }
+#hchars {
+    width: 80%;
+    text-align: left;
+ }
+ #sbody {
+    background-image: url('../images/slytherin.jpg');
+    background-size: 125%;
+    background-position: top center;
+    height: auto;
+    background-attachment: fixed;
+}
+.slytherin {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+#shome p {
+     padding-right: 21em;
+}
+#schars h3 {
+    margin-top: 0.5em;
+}
+#schars {
+    width: 80%;
+    text-align: left;
+}
+.button:hover {
+    font-size: 4vw;
+    transition: all 0.5s;
+}
+.button:active {
+    color: lightgray;
+    transition: all 0.3s;
+}
